@@ -1,0 +1,44 @@
+{
+    "name": "cloud-maestro-pack",
+    "displayName": "Cloud Maestro Pack",
+    "description": "Every Cloud Maestro must have extensions",
+    "publisher": "saranmahadev",
+    "icon" : "icon.png",
+    "version": "1.0.0",
+    "repository":{
+        "type": "git",
+        "url": "https://github.com/Cloud-Maestro/vscodepack.git"
+    },
+    "engines": {
+        "vscode": "^1.59.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [ 
+        "alefragnani.Bookmarks", 
+        "CoenraadS.bracket-pair-colorizer-2", 
+        "GitHub.copilot", 
+        "ms-vscode-remote.remote-containers",
+        "ms-vscode-remote.remote-ssh",
+        "ms-vscode-remote.remote-wsl",
+        "formulahendry.code-runner",         
+        "ms-python.python",
+        "golang.go", 
+        "ms-vscode.powershell",
+        "eamodio.gitlens",   
+        "ms-azuretools.vscode-docker",
+        "ms-kubernetes-tools.vscode-kubernetes-tools",
+        "hashicorp.terraform", 
+        "tomaciazek.ansible",
+        "atlassian.atlascode",        
+        "mycelo.oracle-plsql",
+        "cweijan.vscode-mysql-client2",     
+        "mongodb.mongodb-vscode",          
+        "mohsen1.prettify-json", 
+        "redhat.vscode-yaml",
+        "PKief.material-icon-theme",     
+        "amazonwebservices.aws-toolkit-vscode", 
+        "ms-vscode.vscode-node-azure-pack"       
+    ]
+}
